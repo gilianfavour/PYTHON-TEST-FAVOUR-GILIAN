@@ -16,21 +16,21 @@ def student_mark ():
     percentage = float(input('Enter your mark scored: \n'))
     
     if percentage >= 90:
-        return('Grade A')
+        return'Grade A'
 
     elif percentage >= 80:
-        return('Grade B')
+        return'Grade B'
 
     elif percentage >= 70:
-        return('Grade C') 
+        return'Grade C' 
  
     elif percentage >= 60:
-        return('Grade D')
+        return'Grade D'
 
     elif percentage >= 40:
-        return ('Grade E')
+        return 'Grade E'
 
-    else:return ('Grade F')
+    else:return 'Grade F'
     
     
 student_mark () 
