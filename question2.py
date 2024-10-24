@@ -8,6 +8,29 @@
 # Percentage >= 40%: Grade E
 # Percentage < 40%:  Grade F
 
+import math
 def student_mark ():
-    marks = int(input('Enter your mark scored: \n'))
+    #Prompting the student to enter marks
+
     
+    percentage = float(input('Enter your mark scored: \n'))
+    
+    if percentage >= 90:
+        return('Grade A')
+
+    elif percentage >= 80:
+        return('Grade B')
+
+    elif percentage >= 70:
+        return('Grade C') 
+ 
+    elif percentage >= 60:
+        return('Grade D')
+
+    elif percentage >= 40:
+        return ('Grade E')
+
+    else:return ('Grade F')
+    
+    
+student_mark () 
