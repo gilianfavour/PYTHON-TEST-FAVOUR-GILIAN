@@ -3,13 +3,15 @@
 
 import math
 math. sqrt()
-
+sqrt= ('square_root')
 x1= 'first_cordinate_x'
 y1= 'first_cordinate_y ' 
 x2= 'second_cordinate_x ' 
 y2= 'second_cordinate_y '
 
-distance = (x2-x1)**2 + (y2-y1)**2
+co_ordinates = float(input('Enter the first cordinate:'))
+
+distance = sqrt (x2-x1)**2 + (y2-y1)**2
 
 print (distance)
 
